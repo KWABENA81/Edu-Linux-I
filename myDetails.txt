@@ -1,0 +1,4 @@
+Name:   Solomon Sefa
+Course: Linux Fundermental
+Assign: Certification Project  
+Date:   September 17, 2022
