@@ -1,0 +1,63 @@
+https://learning.edureka.co/my-classroom/linux-fundamentals/coursecontent?courseId=943&fromMasterCourse=520
+
+============================
+Certification Project
+©
+B r a i n 4 c e   E d u c a t i o n   S o l u t i o n s   P v t .   L t d
+Page 
+1
+Project
+Problem Statement
+DOMAIN: 
+Linux
+Fundamentals
+Focus: 
+Development
+Tom 
+needs to create
+user accounts for 
+new 
+joiners
+Jane and Jack in his system and give them 
+permission to view and edit common repositories. 
+He needs to create a cron
+job to delete empty files and directory every day at 00:00 am and 
+need to upgrade the system every week on Tuesday 6:00 am. As part of his role he also 
+needs to monitor system usage (CPU load, Memory usage, disk usage, network usage, active 
+logged in user
+s). He needs to install Git as SCM in a remote system and put system usage 
+data there. He would need to fetch the data on remote server and needs to maintain the 
+remote server from his desktop as well. He also needs to restrict users to access youtube 
+from
+this machine.
+Approach to Solve:
+1.
+Tom creates user accounts for Jane and Jack in his system.
+2.
+Separate home directories are created for each of the three users. 
+3.
+They have a common repository script where every user has access to view and 
+edit files.
+4.
+Tom i
+nstalled git as the SCM in a remote system.
+5.
+He set a cron job to delete empty files and directory from /tmp folder at 00:00 am.
+6.
+He set a cron job to upgrade the system every week on 
+Tuesday
+6:00 am.
+7.
+Tom creates a script which has functionalities to display
+CPU load, Memory usage, 
+disk usage, network usage, active logged in users.
+8.
+He puts them in git repository. 
+9.
+He runs the scripts to get data for remote server to check and maintain the 
+remote server from his 
+desktop
+.
+10.
+He restricts users to access youtube fr
+om this machine
