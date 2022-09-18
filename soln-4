@@ -1,0 +1,33 @@
+$ cd /opt/common_repo            
+$ pwd
+/opt/common_repo
+$ git init
+hint:   git branch -m <name>
+Initialized empty Git repository in /opt/common_repo/.git/
+$ ls -l
+total 0
+-rwxrwxrwx 1 tom commongroup 0 Sep 17 16:50 common_script.sh
+$ ls -la
+total 12
+drwxrwxrwx 3 tom  commongroup 4096 Sep 17 17:09 .
+drwxr-xr-x 6 root root        4096 Sep 17 16:49 ..
+-rwxrwxrwx 1 tom  commongroup    0 Sep 17 16:50 common_script.sh
+drwxrwxr-x 7 tom  tom         4096 Sep 17 17:09 .git
+$ git config --global init.defaultBranch main  
+
+ eval "$(ssh-agent -s)"
+Agent pid 21909
+$ ssh-add /home/tom/.ssh/id_ed25519
+Identity added: /home/tom/.ssh/id_ed25519 (kwabenasefa@hotmail.com)
+
+$ cat /home/tom/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK2p1oysi3JoorwRWfRl/x610GVhhiTRU7w8zyOH3IKQ kwabenasefa@hotmail.com
+$ ^C      
+$ git push main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 217 bytes | 72.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:KWABENA81/common-repo.git
+ * [new branch]      main -> main
+

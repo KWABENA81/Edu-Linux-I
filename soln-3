@@ -1,0 +1,13 @@
+sudo mkdir /opt/common_repo
+sudo touch /opt/common_repo/common_script.sh
+sudo groupadd commongroup
+sudo usermod -a -G commongroup tom
+sudo usermod -a -G commongroup jane
+sudo usermod -a -G commongroup jack
+sudo chown -R tom:commongroup  /opt/common_repo/
+
+ls -ltr /opt/common_repo/
+-rwxr-xr-x 1 tom commongroup 0 Sep 17 16:50 common_script.sh
+
+ls -ltr /opt/
+drwxrwxrwx 2 tom  commongroup 4096 Sep 17 16:50 common_repo
