@@ -6,15 +6,17 @@
 
 #3. Various SELinux features and how they are relevant for different use case
 scenarios for larger team.
-- 
-
-
-
+- SELinux security is achieved by using the Security Level Configuration tool  (security-config-selinux), or manually through the configursation file, /etc/sysconfig/selinux.  They allow an admin to enable or disable SELinux.  Confuguration options invloes set SELINUX to:
+	-- enforcing: 	policy is enforced
+	-- permissive:	system reports warnings but does not enforce SELunx policy
+	-- disabled:	fully disabled
+ - Type of enforcement is achieved with:
+	-- targetted:	to protect selected network daemon
+	-- strict:	to achieve full SELinux protection.
 
 #4. Virtualization and containers. Their common purpose, yet how they are different.
 - Virtualization is used for the abstraction of computer resources. Common virtualizations include: Platform, Resource, Storage, Network, and Desktop.
 - the purposes of virtualization, are Consolidation, Testing and Securirity & Isolation.
-
 
 #5. Explain Linux hardening and other alternatives of SELinux, like AppArmor.
 - Linux Hardening tools operate continuous to isolate and make active changes to security policies.  It utilizes configuration auditing, and system harding tools. 
