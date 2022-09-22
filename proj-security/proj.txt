@@ -1,3 +1,9 @@
+Name:   Solomon Sefa
+Course: Linux Fundermental
+Assign: Certification Project  
+Date:   September 22, 2022
+-------------------------
+
 #1. About security policy available at SELinux (Security-Enhanced Linux).
 - SELinux uses defined security policies to apply access and transition rights of users, applications, processes and files on a linux system
 
