@@ -1,9 +1,0 @@
-sudo useradd -m jane
-sudo useradd -m jack
-cat /etc/passwd | grep jane 
-jane:x:1001:1001::/home/jane:/bin/sh
-cat /etc/passwd | grep jack
-jack:x:1002:1002::/home/jack:/bin/sh
-sudo useradd -m tom
-cat /etc/passwd | grep tom
-tom:x:1003:1003::/home/tom:/bin/sh58 
