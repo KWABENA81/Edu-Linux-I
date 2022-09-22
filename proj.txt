@@ -1,0 +1,22 @@
+#1. About security policy available at SELinux (Security-Enhanced Linux).
+- SELinux uses defined security policies to apply access and transition rights of users, applications, processes and files on a linux system
+
+#2. Basic architecture of SELinux:
+- SELinux architecture give administrators control over who can access the system.  It defines access and transition rights of users, application, process and file on the system.
+
+#3. Various SELinux features and how they are relevant for different use case
+scenarios for larger team.
+- 
+
+
+
+
+#4. Virtualization and containers. Their common purpose, yet how they are different.
+- Virtualization is used for the abstraction of computer resources. Common virtualizations include: Platform, Resource, Storage, Network, and Desktop.
+- the purposes of virtualization, are Consolidation, Testing and Securirity & Isolation.
+
+
+#5. Explain Linux hardening and other alternatives of SELinux, like AppArmor.
+- Linux Hardening tools operate continuous to isolate and make active changes to security policies.  It utilizes configuration auditing, and system harding tools. 
+- AppArmor is a linux kernel security module (Application Armor) that allows system Admins to restrict a program's capability based on their defined profiles.  Profiles are based on a program's network access, raw socket access, and permission to read, write or execute. It is an isolation technology.  
+- SELinux is more complex, and offers more granular module refinements.  It uses MCS (multi-category security), and MLS (multi-level security), which AppArmor does not.  They both use rules based on mandatory access control, MAC.
