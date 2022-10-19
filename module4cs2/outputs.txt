@@ -1,0 +1,78 @@
+/home/sask/Documents/edureka-py/edureka-python-scripting/module4cs2/venv/bin/python /home/sask/Documents/edureka-py/edureka-python-scripting/module4cs2/mod4cs2_q1.py
+#3.	Math Scores without blank scores
+          1    2        4    5    6
+0    Score  Age  Subject  Sex   ID
+1       88   18    Maths    M    1
+2       85   19    Maths    M    2
+3       45   19    Maths    M    3
+4       82   18    Maths    M    4
+..     ...  ...      ...  ...  ...
+595     45   19    Maths    F  595
+596     75   18    Maths    M  596
+597     53   20    Maths    M  597
+598     75   20    Maths    M  598
+599     88   19    Maths    M  599
+
+[600 rows x 5 columns]
+#3.	Physics Scores without blank scores
+          1    2        4    5    6
+0    Score  Age  Subject  Sex   ID
+1       84   18  Physics    M    1
+2       81   19  Physics    M    2
+3       41   19  Physics    M    3
+4       78   18  Physics    M    4
+..     ...  ...      ...  ...  ...
+595     41   19  Physics    F  595
+596     71   18  Physics    M  596
+597     49   20  Physics    M  597
+598     71   20  Physics    M  598
+599     69   19  Physics    M  599
+
+[600 rows x 5 columns]
+#3.	DS Scores without blank scores
+          1    2              4    5    6
+0    Score  Age        Subject  Sex   ID
+1       82   18  Data Structue    M    1
+2       79   19  Data Structue    M    2
+3       39   19  Data Structue    M    3
+4       76   18  Data Structue    M    4
+..     ...  ...            ...  ...  ...
+595     39   19  Data Structue    F  595
+596     69   18  Data Structue    M  596
+597     47   20  Data Structue    M  597
+598     69   20  Data Structue    M  598
+599      0   19  Data Structue    M  599
+
+[600 rows x 5 columns]
+#4.	Concat 1 & 2 scores
+          1    2        4    5    6      1        4
+0    Score  Age  Subject  Sex   ID  Score  Subject
+1       88   18    Maths    1    1     84  Physics
+2       85   19    Maths    1    2     81  Physics
+3       45   19    Maths    1    3     41  Physics
+4       82   18    Maths    1    4     78  Physics
+..     ...  ...      ...  ...  ...    ...      ...
+595     45   19    Maths    2  595     41  Physics
+596     75   18    Maths    1  596     71  Physics
+597     53   20    Maths    1  597     49  Physics
+598     75   20    Maths    1  598     71  Physics
+599     88   19    Maths    1  599     69  Physics
+
+[600 rows x 7 columns]
+#4.	Concat 1 & 2 & 3 scores
+          1    2        4    5    6      1        4      1              4
+0    Score  Age  Subject  Sex   ID  Score  Subject  Score        Subject
+1       88   18    Maths    1    1     84  Physics     82  Data Structue
+2       85   19    Maths    1    2     81  Physics     79  Data Structue
+3       45   19    Maths    1    3     41  Physics     39  Data Structue
+4       82   18    Maths    1    4     78  Physics     76  Data Structue
+..     ...  ...      ...  ...  ...    ...      ...    ...            ...
+595     45   19    Maths    2  595     41  Physics     39  Data Structue
+596     75   18    Maths    1  596     71  Physics     69  Data Structue
+597     53   20    Maths    1  597     49  Physics     47  Data Structue
+598     75   20    Maths    1  598     71  Physics     69  Data Structue
+599     88   19    Maths    1  599     69  Physics      0  Data Structue
+
+[600 rows x 9 columns]
+
+Process finished with exit code 0
