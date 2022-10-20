@@ -17,9 +17,6 @@ hurricanes_header = hurricanes_data.head(0)
 x_title = year_header.name
 y_title = hurricanes_header.name
 
-# x_data = year_data[0:101]
-# y_data = hurricanes_data[0:101]
-
 fig = plt.figure(figsize=(25, 85))
 plt.ylabel(y_title)
 plt.xlabel(x_title)

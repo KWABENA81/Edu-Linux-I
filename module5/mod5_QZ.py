@@ -3,30 +3,22 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 #   Read file
-hurricanes_data = pd.read_csv('inputs/CityTemps.csv', dtype=str, delimiter=',')
+df = pd.DataFrame({'Year': ['2014', '2015'], 'quarter': ['q1', 'q2']})
+print('\ndf1\n', df)
+df['list'] = df[['Year', 'quarter']].values.tolist()
+print('\ndf2\n', df['list'])
+df['period'] = df['list'].apply(''.join)
+print('\ndf3\n', df)
 
+temp_data = pd.read_csv('inputs/CityTemps.csv')
 #   capture headers of table
-hurricanes_data.head()
-df = pd.DataFrame(hurricanes_data)
-print(hurricanes_data)
+data = temp_data.head()
+df = pd.DataFrame(data, columns=['Year', 'Month', 'Moscow', 'San Francisco'])
+df['list'] = df[['Year', 'Month']].values.tolist()
+df['Yr_Mth'] = df['list'].astype(str).apply(''.join)
+print('\ndf6\n', df)
 # extract the axis data
-x_axis = df['Year'] + '/' + df['Month']
-
-x_axis_title = 'Month & Year'
-#
-fig = plt.figure(figsize=(25, 75))
-plt.xlabel(x_axis_title)
-plt.xticks(rotation=70)
-plt.xlim(-1, 24)
-plt.ylim(5, 30)
-plt.grid(True)
-
-x_yr_mth = np.array(x_axis)
-y_san_francisco = np.array(df['San Francisco'])
-print(y_san_francisco)
-plt.ylabel('Rainfall in inches')
-plt.title('Rainfall Distribution in San Francisco')
-
-plt.bar(x_yr_mth, y_san_francisco, color='green', width=.75)
-# plt.hist(y_san_francisco)
-plt.show()
+# x_axis = df['Month'] + '-' + df['Year']
+# x=df['Year'].merge(df['Month'])
+# #df['x'] = df.Year.astype(str).str.cat(df.Month.astype(str), sep='-')
+# df.plot(x, y=['Moscow', 'San Francisco'], kind='bar', figsize=(25, 75))
