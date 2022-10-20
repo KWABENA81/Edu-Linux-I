@@ -1,0 +1,78 @@
+/home/sask/Documents/edureka-py/edureka-python-scripting/module4/venv/bin/python /home/sask/Documents/edureka-py/edureka-python-scripting/module4/mod4_q15.py 
+MathScore Term 1
+                              0      1    2  ...        4    5    6
+0                         Name  Score  Age  ...  Subject  Sex   ID
+1               AI-KYUNG CHUNG     88   18  ...    Maths    M    1
+2                  ALAN HARVEY     85   19  ...    Maths    M    2
+3                 ALAN REYNAUD     45   19  ...    Maths    M    3
+4               ALBERT CENDANA     82   18  ...    Maths    M    4
+..                         ...    ...  ...  ...      ...  ...  ...
+595                    WING NG     45   19  ...    Maths    F  595
+596                YIFANG QIAN     75   18  ...    Maths    M  596
+597           ZACHARY PUMPHREY     53   20  ...    Maths    M  597
+598  ZEBA IMAN NAZEERI-SIMMONS     75   20  ...    Maths    M  598
+599            ZHI JIAR ZHUANG     88   19  ...    Maths    M  599
+
+[600 rows x 7 columns]
+Physics Score Term 1
+                              0      1    2  ...        4    5    6
+0                         Name  Score  Age  ...  Subject  Sex   ID
+1               AI-KYUNG CHUNG     84   18  ...  Physics    M    1
+2                  ALAN HARVEY     81   19  ...  Physics    M    2
+3                 ALAN REYNAUD     41   19  ...  Physics    M    3
+4               ALBERT CENDANA     78   18  ...  Physics    M    4
+..                         ...    ...  ...  ...      ...  ...  ...
+595                    WING NG     41   19  ...  Physics    F  595
+596                YIFANG QIAN     71   18  ...  Physics    M  596
+597           ZACHARY PUMPHREY     49   20  ...  Physics    M  597
+598  ZEBA IMAN NAZEERI-SIMMONS     71   20  ...  Physics    M  598
+599            ZHI JIAR ZHUANG     69   19  ...  Physics    M  599
+
+[600 rows x 7 columns]
+DS Score Term 1
+                              0      1    2  ...              4    5    6
+0                         Name  Score  Age  ...        Subject  Sex   ID
+1               AI-KYUNG CHUNG     82   18  ...  Data Structue    M    1
+2                  ALAN HARVEY     79   19  ...  Data Structue    M    2
+3                 ALAN REYNAUD     39   19  ...  Data Structue    M    3
+4               ALBERT CENDANA     76   18  ...  Data Structue    M    4
+..                         ...    ...  ...  ...            ...  ...  ...
+595                    WING NG     39   19  ...  Data Structue    F  595
+596                YIFANG QIAN     69   18  ...  Data Structue    M  596
+597           ZACHARY PUMPHREY     47   20  ...  Data Structue    M  597
+598  ZEBA IMAN NAZEERI-SIMMONS     69   20  ...  Data Structue    M  598
+599            ZHI JIAR ZHUANG          19  ...  Data Structue    M  599
+
+[600 rows x 7 columns]
+MIDDLE TN SCHOOLS
+                                0   ...                14
+0                            name  ...  percent_hispanic
+1     Allendale Elementary School  ...               5.6
+2             Anderson Elementary  ...               4.9
+3                Avoca Elementary  ...               4.4
+4                   Bailey Middle  ...               4.3
+..                            ...  ...               ...
+343  Winfree Bryant Middle School  ...              15.7
+344    Winstead Elementary School  ...               4.1
+345           Woodland Elementary  ...               9.7
+346        Woodland Middle School  ...               4.4
+347                 Wright Middle  ...              49.5
+
+[348 rows x 15 columns]
+Score Final
+           0    1        2    3    4
+0     Score  Age  Subject  Sex   ID
+1      88.0   18    Maths    1    1
+2      85.0   19    Maths    1    2
+3      45.0   19    Maths    1    3
+4      82.0   18    Maths    1    4
+...     ...  ...      ...  ...  ...
+1793   41.0   19  Physics    2  595
+1794   71.0   18  Physics    1  596
+1795   49.0   20  Physics    1  597
+1796   71.0   20  Physics    1  598
+1797   69.0   19  Physics    1  599
+
+[1798 rows x 5 columns]
+
+Process finished with exit code 0
