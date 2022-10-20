@@ -1,39 +1,25 @@
+import dask.dataframe as dd
+import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt, pylab
 
 #   Read file
-hurricanes_data = pd.read_csv('Cars2015.csv', dtype=str, delimiter=',')
+temp_data = pd.read_csv('inputs/Cars2015.csv')
+params = {'legend.fontsize': 'medium', 'figure.figsize': (35, 35),
+          'axes.labelsize': 'medium', 'axes.titlesize': 'large',
+          'xtick.labelsize': 'small', 'ytick.labelsize': 'small'}
+pylab.rcParams.update(params)
 
 #   capture headers of table
-hurricanes_data.head()
-df = pd.DataFrame(hurricanes_data)
-print(df)
-#
-year_data = df['Year']
-month_data = df['Month']
-moscow_data = df['Moscow']
-melbourne_data = df['Melbourne']
-sanfrancisco_data = df['San Francisco']
+df = pd.DataFrame(temp_data, columns=['Make', 'Model'])
+#   count occurrences of combined columns
+occurrences = df['Make'].value_counts().to_dict()
+print(occurrences)
 
-year_header= year_data.head(0)
-month_header = month_data.head(0)
-moscow_header= moscow_data.head(0)
-melbourne_header = melbourne_data.head(0)
-sanfrancisco_header = sanfrancisco_data.head(0)
-
-y_title = year_header.name
-x_title = month_header.name
-
-x_data = month_data[0:24]
-y_data = year_data[0:24]
+makes = list(occurrences.keys())
+counts = list(occurrences.values())
+plt.pie(counts, labels=makes)
 #
-fig = plt.figure(figsize=(25, 75))
-plt.ylabel(y_title)
-plt.xlabel(x_title)
-plt.title('Rain fall')
-#
-plt.hist(x_data, y_data)
+plt.title('Count of Model releases by Auto Makers', fontsize=16)
+plt.savefig("mod5_Q3.jpg")
 plt.show()
-
-
-
