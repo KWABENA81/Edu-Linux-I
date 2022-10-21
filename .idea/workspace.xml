@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7026d4-c25d-4a6f-8c06-0ec8135e9d62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/module5.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/c8jj1fnsta.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/phase_2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/phase_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/phase_3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/phase_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5cs2/777_m5_datasets_v1.0/BigMartSalesData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5cs2/777_m5_datasets_v1.0/Cars2015.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5cs2/777_m5_datasets_v1.0/CityTemps.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5cs2/777_m5_datasets_v1.0/Hurricanes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5cs2/777_m5_datasets_v1.0/sample-salesv2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5cs2/mod5_Q.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/777_m5_datasets_v1.0/BigMartSalesData.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/777_m5_datasets_v1.0/Cars2015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/777_m5_datasets_v1.0/CityTemps.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/777_m5_datasets_v1.0/Hurricanes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/777_m5_datasets_v1.0/Q4_page_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/777_m5_datasets_v1.0/sample-salesv2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/mod5_Q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5/mod5_Q2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/mod5_Q3z.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5/mod5_Q4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/mod5_QZ.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/mod5_Qz.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +29,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sask/Documents/edureka/edureka-linux-fundermentals&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/sask/Documents/edureka/edureka-linux-fundermentals/mod5cs2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod5cs2" />
       <recent name="$PROJECT_DIR$/module5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mod5_QZ">
-    <configuration name="mod5_Q2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mod5_Q">
+    <configuration name="mod5_Q" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mod5cs2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module5/mod5_Q2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mod5cs2/mod5_Q.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mod5_Q" />
         <item itemvalue="Python.mod5_QZ" />
         <item itemvalue="Python.mod5_Q4" />
         <item itemvalue="Python.mod5_Q3" />
         <item itemvalue="Python.mod5_Q3a" />
-        <item itemvalue="Python.mod5_Q2 (1)" />
       </list>
     </recent_temporary>
   </component>
