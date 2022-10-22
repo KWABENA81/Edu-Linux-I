@@ -10,7 +10,7 @@ params = {'legend.fontsize': 'medium', 'figure.figsize': (15, 5),
           'xtick.labelsize': 'small', 'ytick.labelsize': 'small'}
 pylab.rcParams.update(params)
 
-#   capture headers of table
+#   capture dataframe
 df = pd.DataFrame(temp_data, columns=['Year', 'Month', 'Moscow', 'San Francisco'])
 # extract the axis data
 df['list'] = df[['Year', 'Month']].values.tolist()
