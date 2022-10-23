@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d7026d4-c25d-4a6f-8c06-0ec8135e9d62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mod5cs2/mod5CS2_Q2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5cs2/tepy.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/tepy.py" afterDir="false" />
-    </list>
+    <list default="true" id="4d7026d4-c25d-4a6f-8c06-0ec8135e9d62" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
