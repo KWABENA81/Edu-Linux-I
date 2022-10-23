@@ -5,8 +5,8 @@ import pandas as pd
 from matplotlib import pyplot as plt, pylab
 
 params = {'legend.fontsize': 'medium', 'figure.figsize': (15., 7.5),
-          'axes.labelsize': 'small', 'axes.titlesize': 'small', 'figure.autolayout': True,
-          'xtick.labelsize': 'small', 'ytick.labelsize': 'small'}
+          'axes.labelsize': 'small', 'axes.titlesize': 'small',
+          'figure.autolayout': True, 'xtick.labelsize': 'small', 'ytick.labelsize': 'small'}
 pylab.rcParams.update(params)
 
 #   Read file
@@ -25,7 +25,6 @@ plt.title('Total sales Per Month for 2011', fontsize=16)
 y = df['Amount']
 x = df['Month']
 
-#plt.plot(x, y)
 plt.grid(True)
 plt.xlim(0, 13)
 plt.ylim(500000., 1750000.)
@@ -35,16 +34,3 @@ plt.xticks(np.arange(min(x) - 1, max(x) + 2, 1))
 plt.bar(x, y)
 plt.savefig("mod5CS2_Q2.jpg")
 plt.show()
-#====================================
-
-# fig = plt.figure(figsize=(25, 85))
-# plt.ylabel(y_title)
-# plt.xlabel(x_title)
-# plt.xticks(rotation=70)
-#
-# plt.title('Hurricanes in the US')
-#
-# plt.bar(year_data[0:101], hurricanes_data[0:101])
-# plt.savefig("mod5_Q1.jpg")
-# plt.show()
-#
