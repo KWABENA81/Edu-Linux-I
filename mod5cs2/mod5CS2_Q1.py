@@ -20,21 +20,22 @@ df = df[['Month', 'Amount']].groupby('Month')['Amount'].sum().reset_index()
 plt.xlabel('Months in 2011', fontsize=14)
 plt.ylabel('Sales - x$1,000,000 dollars ', fontsize=14)
 plt.grid(True)
-plt.title('Total sales Per Month for 2011', fontsize=16)
+plt.title('Total Sales per Month in 2011 (in $1,000,000 dollars)', fontsize=16)
 
 y = df['Amount']
-print(y)
 x = df['Month']
-print(x)
 plt.plot(x, y)
 plt.grid(True)
 plt.xlim(0, 13)
 plt.ylim(500000., 1750000.)
 plt.yticks(np.arange(500000, 1750000, 100000))
 plt.xticks(np.arange(min(x) - 1, max(x) + 2, 1))
-# ymax = max(y)
-# xpos = np.where(y==ymax)
-# #xmax = x[xpos]
-# plt.annotate('Max Sales', xy=(xpos, ymax), xytext=(xpos, ymax))
+
+# Annotate lowest sales point
+fvalue = np.interp(2, x, y)
+text = 'Lowest Sales Value $' + str(int(fvalue))
+plt.annotate(text, xy=(2, fvalue), xycoords='data', xytext=(2, 190.),
+             textcoords='offset points', arrowprops=dict(arrowstyle="->"))
+
 plt.savefig("mod5CS2_Q1.jpg")
 plt.show()
